@@ -70,7 +70,7 @@ nav ul li a:hover{
 .filmes{
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 .ft_filmes{
@@ -81,7 +81,8 @@ nav ul li a:hover{
 .series{
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-around;
 }
 .ft_series{
     height: 400px;
