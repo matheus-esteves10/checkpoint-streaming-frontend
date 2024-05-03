@@ -51,7 +51,7 @@ nav ul li a:hover{
 }
 .section_page{
     
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .footer_page{
@@ -74,6 +74,16 @@ nav ul li a:hover{
 
 }
 .ft_filmes{
+    height: 400px;
+    width: 270px;
+    margin: 10px;
+}
+.series{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.ft_series{
     height: 400px;
     width: 270px;
     margin: 10px;
