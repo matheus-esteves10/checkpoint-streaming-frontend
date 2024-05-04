@@ -54,6 +54,54 @@ nav ul li a:hover{
     margin-top: 20px;
 }
 
+.section_page h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: x-large;
+    
+}
+
+.section_page p{
+    margin-left: 10px;    
+    font-size: medium;
+}
+
+.section_destaques{
+    margin: 10px;
+}
+
+.section_destaques p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.filmes{
+    border: red 1px solid;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.ft_filmes{
+    height: 400px;
+    width: 270px;
+    margin: 10px;
+}
+.series{
+    border: red 1px solid;
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+}
+.ft_series{
+    height: 400px;
+    width: 270px;
+    margin: 10px;
+}
+
 .footer_page{
     width: 100%;
     background-color: black;
@@ -66,26 +114,4 @@ nav ul li a:hover{
     text-align: center;
     color: #fff;
     
-}
-.filmes{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-
-}
-.ft_filmes{
-    height: 400px;
-    width: 270px;
-    margin: 10px;
-}
-.series{
-    margin-top: 20px;
-    display: flex;
-    /* justify-content: center; */
-    justify-content: space-around;
-}
-.ft_series{
-    height: 400px;
-    width: 270px;
-    margin: 10px;
 }
