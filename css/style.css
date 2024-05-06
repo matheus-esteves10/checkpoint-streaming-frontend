@@ -79,7 +79,7 @@ nav ul li a:hover{
 }
 
 .filmes{
-    border: black 1px solid;
+    /* border: black 1px solid; */
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
@@ -91,7 +91,7 @@ nav ul li a:hover{
     margin: 10px;
 }
 .series{
-    border: black 1px solid;
+    /* border: black 1px solid; */
     margin-top: 20px;
     display: flex;
     /* justify-content: center; */
