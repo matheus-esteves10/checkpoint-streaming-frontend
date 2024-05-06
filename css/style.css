@@ -186,7 +186,7 @@ nav ul li a:hover{
 }
 
 .videos {
-    height: 400px;
+    height: 330px;
     border: black 6px solid;
     display: flex; 
     flex-direction: column;
@@ -202,7 +202,6 @@ nav ul li a:hover{
 }
 
 .trailers {
-    height: 450px;
     flex-direction: row ;
     justify-content: center;
     align-items: center;
