@@ -57,14 +57,17 @@ nav ul li a:hover {
 
 
 
-.footer_page {
+.footer_page{
     width: 100%;
     background-color: black;
-    position: fixed;
     bottom: 0;
+    position: absolute;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .footer_page p {
-    text-align: center;
+    align-self: center;
     color: #fff;
 }
