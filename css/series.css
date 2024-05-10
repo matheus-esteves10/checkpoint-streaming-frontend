@@ -64,8 +64,13 @@ nav ul li a:hover {
 .series img {
     height: 400px;
     width: 270px;
-    margin: 10px;
+    margin: 20px 10px 10px;
     align-items: center;
+    transition: 0.5s;
+}
+
+.series img:hover { 
+    transform: scale(1.1); 
 }
 
 .footer_page{
