@@ -1,3 +1,4 @@
 Matheus Esteves - RM554769
+Gustavo Souto de Melo - RM558595
 
 Link do repositório: https://github.com/matheus-esteves10/checkpoint-streaming-frontend
