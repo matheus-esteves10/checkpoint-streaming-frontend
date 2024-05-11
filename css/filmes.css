@@ -63,69 +63,40 @@ nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.filmes p {
-    font-size: large;
-    margin-left: 10px;
-    
-}
-
-.filmes img {
-    height: 400px;
-    width: 270px;
-    margin: 0px 10px 10px;
-    align-items: center;
-    transition: 0.5s;
-    align-self: flex-end;
-}
-
-.filmes img:hover { 
-    transform: scale(1.1); 
-}
-
-.footer_page{
-    width: 100%;
-    background-color: black;
-    bottom: 0;
-    position: absolute;
-    min-height: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.footer_page p {
-    align-self: center;
-    color: #fff;
-}
 .miles{
     width: 250px;
     height: 400px;
     background-image: url('/imagens/HomemAranha_Atraves_Aranhaverso.jpg');
     background-size: cover;
+    border-radius: 5px;
 }
 .duna2{
     width: 250px;
     height: 400px;
     background-image: url('/imagens/duna2.jpg');
     background-size: cover;
+    border-radius: 5px;
 }
 .oppernheimer{
     width: 250px;
     height: 400px;
     background-image: url('/imagens/oppernheimer.webp');
     background-size: cover;
+    border-radius: 5px;
 }
 .ultimato{
     width: 250px;
     height: 400px;
     background-image: url('/imagens/ultimato.jpg');
     background-size: cover;
+    border-radius: 5px;
 }
 .vorazes{
     width: 250px;
     height: 400px;
     background-image: url('/imagens/Jogos-Vorazes.jpg');
     background-size: cover;
+    border-radius: 5px;
 }
 .pag_filmes{
     width: 250px;
@@ -162,10 +133,24 @@ nav ul li a:hover {
 .pag_filmes:hover .btn_filmes{
     opacity: 1;
 }
+.footer_page{
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+    position: absolute;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_page p {
+    align-self: center;
+    color: #fff;
+}
 
 
 /* ------------Layout para a pagina de cada série  ------------  */
- 
+
 .container-main{
     display: flex;
     justify-content: center;

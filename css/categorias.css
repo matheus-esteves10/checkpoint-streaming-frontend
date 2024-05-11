@@ -48,10 +48,10 @@ nav ul li a:hover {
     background-color: gray;
 }
 .categorias img{
-    min-width: 150px;
-    min-height: 300px;
-    width: 275px;
-    height: 400px;
+    min-width: 20px;
+    min-height: 60px;
+    width: 215px;
+    height: 250px;
 }
 .categorias p {
     text-align: center;
@@ -83,7 +83,7 @@ nav ul li a:hover {
 .assistir{
     background-color: rgb(48, 47, 47);
     color: red;
-    padding: 10px 70px;
+    padding: 1vh 4.5vw;
     border: 5px solid red;
     border-style: outset;
     cursor: pointer;

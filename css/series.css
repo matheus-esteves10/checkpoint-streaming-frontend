@@ -50,29 +50,91 @@ nav ul li a:hover {
     background-color: gray;
 }
 
-.series {
+.paragrafo{
+    text-align: center;
+    color: white;
+    font-size:25px ;
+    margin: 15px;
+}
+.series{
+    display: flex;
+    flex-direction: row;
     margin-top: 40px;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-
-.series p {
-    font-size: large;
-    margin-left: 10px;
-    
-}
-
-.series img {
+.breaking{
+    width: 250px;
     height: 400px;
-    width: 270px;
-    margin: 20px 10px 10px;
+    background-image: url('/imagens/breakingbad.webp');
+    background-size: cover;
+    border-radius: 5px;
+}
+.papel{
+    width: 250px;
+    height: 400px;
+    background-image: url('/imagens/lacasadepapel.webp');
+    background-size: cover;
+    border-radius: 5px;
+}
+.stranger{
+    width: 250px;
+    height: 400px;
+    background-image: url('/imagens/strangerthings.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.arrow{
+    width: 250px;
+    height: 400px;
+    background-image: url('/imagens/Arrow-poster.jpg');
+    background-size: cover;
+    border-radius: 5px;
+}
+.flash{
+    width: 250px;
+    height: 400px;
+    background-image: url('/imagens/The_Flash_Poster.jpg');
+    background-size: cover;
+    border-radius: 5px;
+}
+.pag_series{
+    width: 250px;
+    height: 400px;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    background-color: rgba(42, 42, 42, 0.17);
+    
     transition: 0.5s;
 }
-
-.series img:hover { 
-    transform: scale(1.1); 
+.btn_series{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 15px 40px;
+    font-size: 20px;
+    border: 5px solid white;
+    border-style:ridge;
+    box-shadow: inset 0 0 10px 3px  white;
+    transition: 0.7s;
+    opacity: 0;
 }
 
+.pag_series:hover{
+    background-color: rgba(42, 42, 42, 0.553);
+    backdrop-filter: blur(5px);
+    
+}
+.btn_series:hover{
+    box-shadow: inset 0 0 25px 25px white;
+    color: black;
+    cursor: pointer;
+}
+.pag_series:hover .btn_series{
+    opacity: 1;
+}
 .footer_page{
     width: 100%;
     background-color: black;
