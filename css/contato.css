@@ -52,7 +52,6 @@ main{
    
     display: flex;
     flex-direction: column;
-    
     justify-content: center;
     height: 79vmin;
 }
@@ -69,19 +68,20 @@ main{
     font-size: 25px;
 }
 .formulario input{
-    width: 200px;
+    width: 400px;
     height: 30px;
     font-size: 20px;
     margin: 20px;
+    overflow-wrap: break-word; /* para navegadores modernos */
+    word-wrap: break-word; 
+    white-space: pre-wrap;
 }
 
-
-
-
-
-
-
-
+#avaliacao{
+    height: 200px;
+    word-wrap: break-word;
+    text-align: start;
+}
 .footer_page{
     width: 100%;
     background-color: black;
